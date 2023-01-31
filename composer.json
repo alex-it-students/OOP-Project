@@ -1,0 +1,16 @@
+{
+    "name": "itakademy/OOP-proect",
+    "description": "OOP project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/controllers",
+            "Model\\": "app/models",
+            "Interfaces\\": "app/interfaces",
+            "traits\\": "app/traits/",
+            "core\\": "core/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
